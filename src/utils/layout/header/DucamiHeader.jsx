@@ -10,7 +10,6 @@ const DucamiHeader = () => {
                 </D.Container>
                 <D.Menu to="./a">강의실 관리</D.Menu>
                 <D.Menu to="./b">교재실 관리</D.Menu>
-                <D.Menu to="./c">조회</D.Menu>
                 <D.AuthContainer to="./myprofile">
                     <D.MemberProfile />
                     <D.MemberName>ducami</D.MemberName>
