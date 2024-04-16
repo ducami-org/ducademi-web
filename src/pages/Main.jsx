@@ -1,7 +1,6 @@
 import React from "react";
-import Login from "./Login";
 
 const Main = () => {
-  return <Login />;
+  return <div></div>;
 };
 export default Main;

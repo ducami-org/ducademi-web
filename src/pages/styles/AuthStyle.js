@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BackgroundImg from "../../assets/img/BackgroundImg.svg";
+import BackgroundImg from "../../assets/img/AuthBackgroundImg.svg"
 
 export const Wrapper = styled.div`
   display: flex;
@@ -40,7 +40,7 @@ export const TitleWrapper = styled.div`
   align-items: center;
   flex-direction: column;
   width: 385px;
-  height: 150px; 
+  height: 150px; // 이 비율 재조정 필요
 `;
 
 export const ObjectWrapper = styled.div`
@@ -48,48 +48,4 @@ export const ObjectWrapper = styled.div`
   width: 385px;
   height: 474px;
   flex-direction: column;
-`;
-
-export const BoxWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 385px;
-  height: 150px;
-`;
-
-export const LoginBox = styled.input`
-  width: 370px;
-  height: 70px;
-  border: 1px solid #212121;
-  border-radius: 5px;
-  margin-bottom: 12px;
-  color: #616161;
-  padding-left: 15px;
-`;
-
-export const PwBox = styled.input`
-  width: 370px;
-  height: 70px;
-  border: 1px solid #212121;
-  border-radius: 5px;
-  color: #616161;
-  padding-left: 15px;
-`;
-
-export const LoginButton = styled.button`
-  width: 385px;
-  height: 70px;
-  background-color: #212121;
-  color: white;
-  font-size: 16px;
-  border-radius: 5px;
-  margin-top: 15px;
-  font-weight: 600;
-`;
-
-export const LoginRemainWrapper = styled.div`
-  display: flex;
-  margin-top: 31px;
-  text-align: "center";
-  justify-content: space-between;
 `;
